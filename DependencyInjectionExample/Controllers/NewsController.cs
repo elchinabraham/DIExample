@@ -29,6 +29,7 @@ namespace DependencyInjectionExample.Controllers
         public News Get(int id)
         {
             // this is testing
+            // this is second testing
             return _newsRepository.GetNews();
         }
     }
