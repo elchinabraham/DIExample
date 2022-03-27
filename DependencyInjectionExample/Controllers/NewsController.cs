@@ -28,6 +28,7 @@ namespace DependencyInjectionExample.Controllers
         [HttpGet("{id}")]
         public News Get(int id)
         {
+            // this is testing
             return _newsRepository.GetNews();
         }
     }
